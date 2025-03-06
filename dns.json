@@ -64,6 +64,18 @@
     {
     	"name": "HaGeZi's Pop-Up Ads",
     	"source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt"
+    },
+    {
+    	"name": "The Blocklist Project: Everything",
+    	"source": "https://blocklistproject.github.io/Lists/adguard/everything-ags.txt"
+    },
+    {
+    	"name": "ph00lt0's Blocklist",
+    	"source": "https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt"
+    },
+    {
+    	"name": "Werewolfke's AD-Blocklist",
+    	"source": "https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/BlockList/BlockList_V1.txt"
     }
   ],
   "transformations": ["RemoveComments", "Deduplicate", "Compress", "RemoveEmptyLines", "TrimLines", "InsertFinalNewLine", "ConvertToAscii"]
