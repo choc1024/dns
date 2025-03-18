@@ -76,6 +76,15 @@
     {
     	"name": "Werewolfke's AD-Blocklist",
     	"source": "https://raw.githubusercontent.com/Werewolfke/AD-BlockList/main/BlockList/BlockList_V1.txt"
+    },
+    {
+    	"name": "KADhosts",
+    	"source": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
+    	"type": "hosts"
+    },
+    {
+    	"name": "HaGeZi Gambling",
+    	"source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt"
     }
   ],
   "transformations": ["RemoveComments", "Deduplicate", "Compress", "RemoveEmptyLines", "TrimLines", "InsertFinalNewLine", "ConvertToAscii"]
